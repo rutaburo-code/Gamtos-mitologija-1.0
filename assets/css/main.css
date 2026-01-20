@@ -2340,3 +2340,25 @@ input, select, textarea {
         background-position: center top;
     }
 }
+/* =========================
+   HERO WITH CUSTOM WEBP
+   ========================= */
+
+.hero-image {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../images/virselis-gluosnis.webp");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Scroll button */
+.hero-image .button.down {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
