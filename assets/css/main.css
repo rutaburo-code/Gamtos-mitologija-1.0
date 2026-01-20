@@ -2362,3 +2362,21 @@ input, select, textarea {
     transform: translateX(-50%);
     z-index: 10;
 }
+/* =========================
+   HERO IMAGE – OVERRIDE HTML5 UP
+   ========================= */
+
+.hero-image {
+    background-image: url("../../images/virselis-gluosnis.webp") !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Nuimam šablono overlay */
+.hero-image::before,
+.hero-image::after {
+    display: none !important;
+}
