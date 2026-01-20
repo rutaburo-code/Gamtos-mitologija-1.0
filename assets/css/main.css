@@ -2310,3 +2310,33 @@ input, select, textarea {
 			}
 
 		}
+/* =========================
+   HERO IMAGE – GAMTOS MITOLOGIJA
+   ========================= */
+
+.hero-image {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+    background-image: url("../../images/VIRSELIS SU GLUOSNIU.webp");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* Scroll down button */
+.hero-image .button.down {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+/* Mobile korekcija – saugom baltą viršų */
+@media screen and (max-width: 736px) {
+    .hero-image {
+        background-position: center top;
+    }
+}
